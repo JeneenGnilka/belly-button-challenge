@@ -58,19 +58,19 @@ function buildGaugeChart(sample) {
             type: "indicator",
             mode: "gauge+number",
             gauge: {
-                axis: {range: [0,10], tickmode: "linear", tick0: 2, dtick: 2},
+                axis: {range: [0,10], tickmode: "linear", tick0: 1, dtick: 1},
                 bar: {color: "black"},
                 steps: [
                     {range: [0, 1], color: "rgba(255, 255, 255, 0)"},
-                    {range: [1, 2], color: "rgba(235, 255, 238, .75)"},
-                    {range: [2, 3], color: "rgba(203, 232, 211, .75)"},
-                    {range: [3, 4], color:  "rgba(160, 207, 173, .75)"},
-                    {range: [4, 5], color:  "rgba(139, 186, 152, .75)"},
-                    {range: [5, 6], color: "rgba(101, 161, 118, .75)"},
-                    {range: [6, 7], color: "rgba(93, 150, 109, .75)"},
-                    {range: [7, 8], color:  "rgba(59, 129, 79, .75)"},
-                    {range: [8, 9], color: "rgba(50, 102, 68, 0.75)"},
-                    {range: [9, 10], color: "rgba(24, 63, 35, .75)"},
+                    {range: [1, 2], color: "rgba(235, 255, 238, 1)"},
+                    {range: [2, 3], color: "rgba(203, 232, 211, 1)"},
+                    {range: [3, 4], color:  "rgba(160, 207, 173, 1)"},
+                    {range: [4, 5], color:  "rgba(139, 186, 152, 1)"},
+                    {range: [5, 6], color: "rgba(101, 161, 118, 1)"},
+                    {range: [6, 7], color: "rgba(93, 150, 109, 1)"},
+                    {range: [7, 8], color:  "rgba(59, 129, 79, 1)"},
+                    {range: [8, 9], color: "rgba(50, 102, 68, 1)"},
+                    {range: [9, 10], color: "rgba(24, 63, 35, 1)"},
                 ]
             }
         };
