@@ -62,15 +62,15 @@ function buildGaugeChart(sample) {
                 bar: {color: "black"},
                 steps: [
                     {range: [0, 1], color: "rgba(255, 255, 255, 0)"},
-                    {range: [1, 2], color: "rgba(235, 255, 238, .5)"},
-                    {range: [2, 3], color: "rgba(203, 232, 211, .5)"},
-                    {range: [3, 4], color:  "rgba(160, 207, 173, .5)"},
-                    {range: [4, 5], color:  "rgba(139, 186, 152, .5)"},
-                    {range: [5, 6], color: "rgba(101, 161, 118, .5)"},
-                    {range: [6, 7], color: "rgba(93, 150, 109, .5)"},
-                    {range: [7, 8], color:  "rgba(59, 129, 79, .5)"},
-                    {range: [8, 9], color: "rgba(50, 102, 68, 0.5)"},
-                    {range: [9, 10], color: "rgba(24, 63, 35, .5)"},
+                    {range: [1, 2], color: "rgba(235, 255, 238, .75)"},
+                    {range: [2, 3], color: "rgba(203, 232, 211, .75)"},
+                    {range: [3, 4], color:  "rgba(160, 207, 173, .75)"},
+                    {range: [4, 5], color:  "rgba(139, 186, 152, .75)"},
+                    {range: [5, 6], color: "rgba(101, 161, 118, .75)"},
+                    {range: [6, 7], color: "rgba(93, 150, 109, .75)"},
+                    {range: [7, 8], color:  "rgba(59, 129, 79, .75)"},
+                    {range: [8, 9], color: "rgba(50, 102, 68, 0.75)"},
+                    {range: [9, 10], color: "rgba(24, 63, 35, .75)"},
                 ]
             }
         };
